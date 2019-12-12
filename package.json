@@ -1,5 +1,5 @@
 {
-	"name": "unistring",
+	"name": "@rharish100193/unistring",
 	"version": "0.4.0",
 	"description": "Forked from unistring repo and modified it to ES6 for package publish",
 	"main": "index.js",
@@ -42,6 +42,9 @@
 		"test": "node test/index.js",
 		"rollup": "cd build && ../node_modules/.bin/rollup -c",
 		"rollupWatch": "cd build && ../node_modules/.bin/rollup -c --watch"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"files": [
 		"/lib"
