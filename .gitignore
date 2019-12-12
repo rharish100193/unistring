@@ -5,3 +5,4 @@ desktop.ini
 Session.vim
 node_modules
 package-lock.json
+.npmrc

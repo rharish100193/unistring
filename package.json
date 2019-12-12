@@ -43,9 +43,6 @@
 		"rollup": "cd build && ../node_modules/.bin/rollup -c",
 		"rollupWatch": "cd build && ../node_modules/.bin/rollup -c --watch"
 	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
 	"files": [
 		"/lib"
 	]
